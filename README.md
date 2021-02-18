@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# React Delibery App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Layout
+https://dribbble.com/shots/15097534-Chika-Smart-Banking-App-UI
 
 ## Available Scripts
 
