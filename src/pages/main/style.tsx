@@ -11,7 +11,7 @@ export const Page = styled.main`
 `;
 
 export const Cart = styled.div`
-  position: absolute;
+  position: fixed;
   top: 20vh;
   right: 0;
   display: flex;
@@ -25,7 +25,7 @@ export const Cart = styled.div`
   overflow: hidden;
   
   img {
-    width: 2.7rem;
+    width: 2.5rem;
   }
 `;
 
@@ -61,6 +61,7 @@ export const ListCards = styled.div`
   flex-direction: column;    
   margin: 1rem 0;
   align-items: center;
+  margin-bottom: 5rem;
 `;
 
 export const Navbar = styled.div`
@@ -71,7 +72,8 @@ export const Navbar = styled.div`
   right: 0;
   width: 100%;
   height: 3rem;
-  background: white;
+  background: #f5f5f5;
+  filter: drop-shadow(0px 4px 9px rgba(0, 0, 0, 0.15));
 `;
 
 export const Plus = styled.div`

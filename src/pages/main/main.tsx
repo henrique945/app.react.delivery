@@ -26,6 +26,8 @@ function Main(): ReactElement {
       list.push(cardTest);
       list.push(cardTest);
       list.push(cardTest);
+      list.push(cardTest);
+      list.push(cardTest);
 
       setListCards(list);
     };
@@ -47,8 +49,8 @@ function Main(): ReactElement {
       <MainCard></MainCard>
 
       <S.ListCards>
-        { listCards.map((item) => (
-          <Card item={ item }></Card>
+        { listCards.map((item, key) => (
+          <Card key={ key } item={ item }></Card>
         )) }
       </S.ListCards>
 

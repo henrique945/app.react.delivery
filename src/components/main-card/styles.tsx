@@ -2,8 +2,8 @@ import styled from '@emotion/styled';
 import { environment } from '../../environments/environment';
 
 export const CardContainer = styled.div`
-  width: 50vw;
-  height: 50vw;
+  width: 70%;
+  height: 55vw;
   background: white;
   border-radius: 20px;    
   margin: 0 auto;
