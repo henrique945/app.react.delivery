@@ -44,6 +44,12 @@ export const Title = styled.div`
     margin: 0;
     font-size: 3rem;
   }
+  
+  @supports(-webkit-text-stroke-width: 1.5px) {
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #e20000;
+    -webkit-font-smoothing: antialiased;
+  }
 `;
 
 export const TitleDetail = styled.div`

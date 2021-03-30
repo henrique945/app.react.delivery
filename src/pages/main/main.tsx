@@ -6,7 +6,7 @@ import cartIcon from '../../assets/imgs/cart-icon.png';
 import plus from '../../assets/imgs/plus.png';
 import Card from '../../components/card/card';
 import MainCard from '../../components/main-card/main-card';
-import { CardInterface } from './card.interface';
+import { CardInterface } from '../../models/interfaces/card.interface';
 import * as S from './style';
 
 //#endregion

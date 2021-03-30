@@ -6,12 +6,14 @@ function MainCard(): ReactElement {
 
   return (
     <S.CardContainer>
-      <S.CardImage>
-        <img src={ pizza } alt="Pizza"/>
-      </S.CardImage>
-      <S.FooterInfo>
-        <span>Pizza Name</span>
-      </S.FooterInfo>
+      <S.SNavLink isLoading={ true } to="/product-detail">
+        <S.CardImage>
+          <img src={ pizza } alt="Pizza"/>
+        </S.CardImage>
+        <S.FooterInfo>
+          <span>Pizza Name</span>
+        </S.FooterInfo>
+      </S.SNavLink>
     </S.CardContainer>
   );
 }

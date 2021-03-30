@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react';
-import { CardInterface } from '../../pages/main/card.interface';
+import { CardInterface } from '../../models/interfaces/card.interface';
 import * as S from './styles';
 
 export type CardProps = {

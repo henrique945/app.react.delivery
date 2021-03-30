@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { NavLink } from 'react-router-dom';
 import { environment } from '../../environments/environment';
 
 export const CardContainer = styled.div`
@@ -9,6 +10,14 @@ export const CardContainer = styled.div`
   margin: 0 auto;
   filter: drop-shadow(0px 4px 9px rgba(0, 0, 0, 0.15));
   overflow: hidden;
+`;
+
+export const SNavLink = styled(NavLink)<{ isLoading: boolean }>`
+  text-decoration: none;
+  content: ${ props => {
+    console.log('oi');
+    return props.isLoading.toString();
+  } };
 `;
 
 export const CardImage = styled.div`
