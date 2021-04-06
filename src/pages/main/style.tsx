@@ -7,7 +7,7 @@ export const Page = styled.main`
   width: 100%;
   display: flex;
   flex-direction: column;
-  background: radial-gradient(circle, rgb(223 26 62 / 64%) 5%, rgba(0,0,0,0) 90%);
+  background: white;
 `;
 
 export const Cart = styled.div`
@@ -78,7 +78,7 @@ export const Navbar = styled.div`
   right: 0;
   width: 100%;
   height: 3rem;
-  background: #f5f5f5;
+  background: ${ environment.primaryColor };
   filter: drop-shadow(0px 4px 9px rgba(0, 0, 0, 0.15));
 `;
 
@@ -92,7 +92,7 @@ export const Plus = styled.div`
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
-  background: ${ environment.primaryColor };    
+  background: #f5f5f5;    
   filter: drop-shadow(0px 4px 9px rgba(0, 0, 0, 0.15));
   
   img {

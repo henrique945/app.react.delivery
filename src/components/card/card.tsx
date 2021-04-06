@@ -9,10 +9,12 @@ export type CardProps = {
 function Card({ item }: CardProps): ReactElement {
 
   return (
-    <S.CardContainer>
-      <img src={ item.image } alt="Item"/>
-      <span>{ item.name }</span>
-    </S.CardContainer>
+    <S.SNavLink to="/product-detail">
+      <S.CardContainer>
+        <img src={ item.image } alt="Item"/>
+        <span>{ item.name }</span>
+      </S.CardContainer>
+    </S.SNavLink>
   );
 }
 

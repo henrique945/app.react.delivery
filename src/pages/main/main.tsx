@@ -3,7 +3,7 @@
 import React, { ReactElement, useEffect, useState } from 'react';
 import pizza from '../../assets/imgs/card-pizza.jpg';
 import cartIcon from '../../assets/imgs/cart-icon.png';
-import plus from '../../assets/imgs/plus.png';
+import plus from '../../assets/imgs/plus-red.png';
 import Card from '../../components/card/card';
 import MainCard from '../../components/main-card/main-card';
 import { CardInterface } from '../../models/interfaces/card.interface';
