@@ -77,3 +77,21 @@ export const Plus = styled.div`
     object-fit: cover;
   }
 `;
+
+// Modal
+export const Input = styled.input`
+  width: 100%;
+  border: 0;
+  background: transparent;
+  outline: 0;
+  color: gray;
+`;
+
+export const ListCards = styled.div`
+  display: flex;
+  flex-direction: column;    
+  margin: 1rem 0;
+  align-items: center;
+  max-height: 15rem;
+  overflow: auto;
+`;

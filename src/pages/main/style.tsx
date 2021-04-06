@@ -13,7 +13,7 @@ export const Page = styled.main`
 export const Cart = styled.div`
   position: fixed;
   top: 20vh;
-  right: 0;
+  right: -2px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,6 +23,7 @@ export const Cart = styled.div`
   border-bottom-left-radius: 20px;
   border-top-left-radius: 20px;
   overflow: hidden;
+  border: 2px solid black;
   
   img {
     width: 2.5rem;
@@ -43,6 +44,7 @@ export const Title = styled.div`
   h1 {
     margin: 0;
     font-size: 3rem;
+    color: transparent;
   }
   
   @supports(-webkit-text-stroke-width: 1.5px) {
@@ -67,7 +69,8 @@ export const ListCards = styled.div`
   flex-direction: column;    
   margin: 1rem 0;
   align-items: center;
-  margin-bottom: 5rem;
+  max-height: 15rem;
+  overflow: auto;
 `;
 
 export const Navbar = styled.div`
@@ -100,4 +103,13 @@ export const Plus = styled.div`
     height: 2rem;
     object-fit: cover;
   }
+`;
+
+// Modal
+export const Input = styled.input`
+  width: 100%;
+  border: 0;
+  background: transparent;
+  outline: 0;
+  color: gray;
 `;
