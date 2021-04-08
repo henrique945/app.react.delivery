@@ -2,7 +2,7 @@
 
 ## Wireframe
 
-!['Wireframe](./wireframe.JPG)
+![Wireframe](./wireframe.JPG?raw=true)
 
 ## Layout
 https://dribbble.com/shots/15097534-Chika-Smart-Banking-App-UI
