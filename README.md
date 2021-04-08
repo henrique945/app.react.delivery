@@ -1,5 +1,9 @@
 # React Delibery App
 
+## Wireframe
+
+!['Wireframe](./wireframe.JPG)
+
 ## Layout
 https://dribbble.com/shots/15097534-Chika-Smart-Banking-App-UI
 
